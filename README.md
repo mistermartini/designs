@@ -4,16 +4,11 @@ A responsive site and layout designer for Poetroid in HTML5 and CSS3.
 
 ## Overview
 
-Based on:
-
-* [H5BP](http://html5boilerplate.com)
-* Responsive Web Design using [Grid(http://www.adamkaplan.me/grid/).
+Based on Adam Kaplan's excellent guide on [Responsive Web Design]( http://www.adamkaplan.me/grid/) and [H5BP](http://html5boilerplate.com)
 
 No frameworks or pre-processors.
 
 ## Usage
-
-First read, Adam Kaplan's excellent guide on [RWD]( http://www.adamkaplan.me/grid/).
 
 Setup `npm install -g static` once, then run a local static server:
 
