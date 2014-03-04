@@ -1,31 +1,24 @@
 # Poetroid Designer
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
-
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
-
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+A responsive site and layout designer for Poetroid in HTML5 and CSS3.
 
 ## Overview
+
+Based on:
 
 * A Robust HTML5 template with [H5BP](http://html5boilerplate.com))
 * Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
 * Designed with Responsive Web Design using [Grid](http://www.adamkaplan.me/grid/).
 
-Pure HTML5 and CSS3, No frameworks.
+No frameworks.
 
 ## Usage
 
-Setup `npm install -g static` once, then run a local static server using:
+Setup `npm install -g static` once, then run a local static server:
 
     static
 
-This will server your files at `http://127.0.0.1:8080`:
+This will server your site at `http://127.0.0.1:8080`:
 
 Configure ports, if necessary:
 
@@ -35,11 +28,11 @@ Configure ports, if necessary:
 
 Pre-Alpha.
 
-Currently serves as a site designer for Poetroid (a collection of distributed publishing services running on Heroku).
+Currently serves as a site designer for Poetroid (a collection of distributed publishing services run by Facjure on Heroku).
 
 ## Credits
 
-Modifiied from the original design by [Adam Kaplan](http://www.adamkaplan.me/).
+Modifiied from the original Grid sample layout by [Adam Kaplan](http://www.adamkaplan.me/).
 
 ## Copyright & License
 
