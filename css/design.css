@@ -1,3 +1,109 @@
+body {
+  background-color: #f2f2f2;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px;
+  padding-top:40px;
+}
+
+header {
+  border-bottom: 1px #dbe4e4 solid;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1.5% 10% 1%;
+  width: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ul. {
+  font-size: 1em; font-weight:100;
+}
+
+dl.meta-title {
+  box-shadow: inset 1 1 10px #777777;
+}
+
+dl.meta-author { }
+dl.meta-country { }
+dl.meta-year { }
+dl.meta-gender {}
+dd.meta-title {}
+dd.meta-author {}
+dd.meta-country {}
+dd.meta-year {}
+dd.meta-gender {}
+dd.meta-title  {
+  text-decoration: overline;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.by {
+    text-transform: lowercase;
+}
+
+.author {
+  text-transform: capitalize;
+  text-decoration: overline;
+  text-align: center;
+}
+
+/* Pre tags must be styled separately */
+
+
+.metadata {
+  font-size: 50%;
+  padding: 10px;
+  text-align: center;
+  /*border: 1px dotted DarkBlue;*/
+  margin: 10px 10px;
+}
+
+.metadata h5 {
+   border: 1px dotted Cyan;
+   box-shadow: 5px 5px #777777;
+}
+
+.metadata .title {
+  font-size: 75%;
+}
+
+.tags {
+  width: 20%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.tags > h4 {
+   box-shadow: 5px 5px #192f48;
+}
+
+.collections h4 {
+  border: 1px dotted Cyan;
+  box-shadow: 5px 5px #192f48;
+  padding: 10px;
+  margin: 10px;
+}
+
+.collections ul li {}
+
 /* Metadata */
 
 .container dl dt {
@@ -33,9 +139,47 @@
   text-transform:uppercase;
 }
 
+.span {
+
+}
 
 /* Tags */
 
 .container div tag {
   text-transform: lowercase;
 }
+
+
+/* REPL */
+
+#repl {
+  position: relative;
+  margin: 50px 0;
+  *z-index: 1;
+}
+
+#repl-input {
+  background-color: inherit;
+  border: none !important;
+}
+
+#repl-input:focus {
+  outline:none;
+  border: none !important;
+}
+
+.highlight {
+  background-color : #CCFFCC;
+}
+
+.notes {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+  text-align: center;
+  background-color : #CCCC99;
+  margin: 10px 10px;
+  border: 1px 1px ;
+}
+

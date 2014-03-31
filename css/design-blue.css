@@ -1,0 +1,41 @@
+/* Metadata */
+
+.container dl dt {
+  font-style:italic;
+  text-transform:lowercase;
+}
+
+.container dl dd{
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.container dl dd author {
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.container dl dd title {
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.container dl dd year {
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+.container dl dd country {
+  text-transform:uppercase;
+}
+
+.container dl dd gender {
+  text-transform:uppercase;
+}
+
+
+/* Tags */
+
+.container div tag {
+  text-transform: lowercase;
+}
