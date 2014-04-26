@@ -189,6 +189,9 @@ dd.meta-title  {
 .title {
   text-transform: uppercase;
   text-align: center;
+    font-family: 'Alegreya', serif;
+  font-size: 3em;
+  color: #555;
 }
 
 .by {
